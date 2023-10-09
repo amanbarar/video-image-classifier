@@ -1,0 +1,143 @@
+{
+    "id": "clne64z4a001u070s43z59oai",
+    "name": "object_detection_recognition_schema",
+    "tools": [
+     {
+      "schemaNodeId": "clmteenij0c4y072scmyt53ir",
+      "featureSchemaId": "clmteenij0c4x072s1m7z74ip",
+      "required": false,
+      "name": "eyes_bb",
+      "tool": "rectangle",
+      "color": "#1CE6FF",
+      "archived": 0,
+      "classifications": [
+       {
+        "schemaNodeId": "clne64z5f002b070ser6phbop",
+        "featureSchemaId": "clne64z5f0026070s1vqk43m6",
+        "archived": 0,
+        "required": true,
+        "instructions": "eyes",
+        "name": "eyes",
+        "type": "radio",
+        "uiMode": "hotkey",
+        "position": 0,
+        "kind": "RadioQuestion",
+        "options": [
+         {
+          "schemaNodeId": "clne64z5f0028070sf6a9dpr4",
+          "featureSchemaId": "clne64z5f0027070s4o113jhr",
+          "label": "eye_contact",
+          "value": "eye_contact",
+          "position": 0,
+          "kind": "RadioOption"
+         },
+         {
+          "schemaNodeId": "clne64z5f002a070s8dvrcbnr",
+          "featureSchemaId": "clne64z5f0029070s5hsy9ko4",
+          "label": "no_eye_contact",
+          "value": "no_eye_contact",
+          "position": 1,
+          "kind": "RadioOption"
+         }
+        ]
+       }
+      ],
+      "kind": "Rectangle"
+     },
+     {
+      "schemaNodeId": "clmteenij0c50072s7dxg3h36",
+      "featureSchemaId": "clmteenij0c4z072s9aak038o",
+      "required": false,
+      "name": "mouth_bb",
+      "tool": "rectangle",
+      "color": "#FF34FF",
+      "archived": 0,
+      "classifications": [
+       {
+        "schemaNodeId": "clne64z5g002i070s56xihphw",
+        "featureSchemaId": "clne64z5g002d070sh4tlgbm5",
+        "archived": 0,
+        "required": true,
+        "instructions": "mouth",
+        "name": "mouth",
+        "type": "radio",
+        "uiMode": "hotkey",
+        "position": 0,
+        "kind": "RadioQuestion",
+        "options": [
+         {
+          "schemaNodeId": "clne64z5g002f070se18vbana",
+          "featureSchemaId": "clne64z5g002e070s9wd2483d",
+          "label": "smile",
+          "value": "smile",
+          "position": 0,
+          "kind": "RadioOption"
+         },
+         {
+          "schemaNodeId": "clne64z5g002h070s4odz332n",
+          "featureSchemaId": "clne64z5g002g070s563a5lhu",
+          "label": "no_smile",
+          "value": "no_smile",
+          "position": 1,
+          "kind": "RadioOption"
+         }
+        ]
+       }
+      ],
+      "kind": "Rectangle"
+     },
+     {
+      "schemaNodeId": "clne64z5a0024070s5116hnel",
+      "featureSchemaId": "clne64z5a001v070s9wf10yr8",
+      "required": false,
+      "name": "dress_bb",
+      "tool": "rectangle",
+      "color": "#FF4A46",
+      "archived": 0,
+      "classifications": [
+       {
+        "schemaNodeId": "clne64z5a0023070s5rm65xo6",
+        "featureSchemaId": "clne64z5a001w070s7fhsdxqs",
+        "archived": 0,
+        "required": true,
+        "instructions": "dress",
+        "name": "dress",
+        "type": "radio",
+        "uiMode": "hotkey",
+        "position": 0,
+        "kind": "RadioQuestion",
+        "options": [
+         {
+          "schemaNodeId": "clne64z5a001y070s01myc03t",
+          "featureSchemaId": "clne64z5a001x070sdregaz5c",
+          "label": "formal",
+          "value": "formal",
+          "position": 0,
+          "kind": "RadioOption"
+         },
+         {
+          "schemaNodeId": "clne64z5a0020070s7n6idv67",
+          "featureSchemaId": "clne64z5a001z070s897cgq0p",
+          "label": "casual",
+          "value": "casual",
+          "position": 1,
+          "kind": "RadioOption"
+         },
+         {
+          "schemaNodeId": "clne64z5a0022070s6b0ue7rl",
+          "featureSchemaId": "clne64z5a0021070s0vxy5lz0",
+          "label": "disorderly",
+          "value": "disorderly",
+          "position": 2,
+          "kind": "RadioOption"
+         }
+        ]
+       }
+      ],
+      "kind": "Rectangle"
+     }
+    ],
+    "classifications": [],
+    "relationships": [],
+    "realTime": false
+   }

@@ -1,0 +1,6 @@
+opencv-python
+numpy
+labelbox
+pandas
+youtube-dl
+python-dotenv

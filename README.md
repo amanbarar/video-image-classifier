@@ -14,11 +14,11 @@ Labelbox annotation tutorial video: [Tutorial for Annotations on the Label Box](
 ### Step 2: Preprocessing and Data Preparation
 
 - Extract all data from Labelbox JSON output files and generate csv files with annotation of labels
-- Make csv files and images pre processed and ready for model training and testing 
+- Make csv files and images pre processed and ready for model training and testing
 
 ### Step 3: Model Training and Testing
 
 - Understand what happens in CNN models for image processing.
 - Send in the right inputs for CNN models from images and train models.
 - Check for model performance at testing using mentioned metrics and understand why model performance is possibly less.
-- Repeat the process with changes in model (hyper parameter tuning). 
+- Repeat the process with changes in model (hyper parameter tuning).

@@ -11,6 +11,10 @@ The task to solve a classification problem where we classify each image extracte
 
 Labelbox annotation tutorial video: [Tutorial for Annotations on the Label Box](https://www.loom.com/share/d4b2dafb3d0540f3978b94041fa7eac4?sid=1d2f0a3e-c1ef-45db-9a58-11d46f81f0e8)
 
+Updated annotation tutorial vide: [Updated tutorial on Labelbox](https://www.loom.com/share/80659a5072d84c6e84638f26a48aaa6d?sid=6389c2cf-673b-40ea-b8ec-3580c40260db)
+
+Video resources: [Google Drive - team 20](https://drive.google.com/drive/folders/1-FH8hSZtgNoeYepdiPfKJgwg3Ji6t9NL)
+
 ### Step 2: Preprocessing and Data Preparation
 
 - Extract all data from Labelbox JSON output files and generate csv files with annotation of labels

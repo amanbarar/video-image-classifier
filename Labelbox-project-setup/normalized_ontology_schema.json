@@ -1,5 +1,5 @@
 {
-    "id": "clne64z4a001u070s43z59oai",
+    "id": "clnmrft4a0ohh07yr5ivw26i8",
     "name": "object_detection_recognition_schema",
     "tools": [
      {
@@ -37,6 +37,14 @@
           "label": "no_eye_contact",
           "value": "no_eye_contact",
           "position": 1,
+          "kind": "RadioOption"
+         },
+         {
+          "schemaNodeId": "clnmrft5h0oi407yr0m806tns",
+          "featureSchemaId": "clnmrft5h0oi307yr7yla7uu9",
+          "label": "hidden_or_unclear",
+          "value": "hidden_or_unclear",
+          "position": 2,
           "kind": "RadioOption"
          }
         ]
@@ -80,6 +88,14 @@
           "value": "no_smile",
           "position": 1,
           "kind": "RadioOption"
+         },
+         {
+          "schemaNodeId": "clnmrft5d0ohy07yrhgt67uly",
+          "featureSchemaId": "clnmrft5d0ohx07yr1ar2agow",
+          "label": "hidden_or_unclear",
+          "value": "hidden_or_unclear",
+          "position": 2,
+          "kind": "RadioOption"
          }
         ]
        }
@@ -87,17 +103,17 @@
       "kind": "Rectangle"
      },
      {
-      "schemaNodeId": "clne64z5a0024070s5116hnel",
-      "featureSchemaId": "clne64z5a001v070s9wf10yr8",
+      "schemaNodeId": "clnmsg4j40jcg08xs1qr52x77",
+      "featureSchemaId": "clnmsg4j40jc108xsc08g1wiw",
       "required": false,
-      "name": "dress_bb",
+      "name": "person_bb",
       "tool": "rectangle",
       "color": "#FF4A46",
       "archived": 0,
       "classifications": [
        {
-        "schemaNodeId": "clne64z5a0023070s5rm65xo6",
-        "featureSchemaId": "clne64z5a001w070s7fhsdxqs",
+        "schemaNodeId": "clnmsg4j40jc908xs02df8jlm",
+        "featureSchemaId": "clnmsg4j40jc208xs9wilcsbt",
         "archived": 0,
         "required": true,
         "instructions": "dress",
@@ -108,27 +124,57 @@
         "kind": "RadioQuestion",
         "options": [
          {
-          "schemaNodeId": "clne64z5a001y070s01myc03t",
-          "featureSchemaId": "clne64z5a001x070sdregaz5c",
+          "schemaNodeId": "clnmsg4j40jc408xs2zur4mnf",
+          "featureSchemaId": "clnmsg4j40jc308xs65vyaj4f",
           "label": "formal",
           "value": "formal",
           "position": 0,
           "kind": "RadioOption"
          },
          {
-          "schemaNodeId": "clne64z5a0020070s7n6idv67",
-          "featureSchemaId": "clne64z5a001z070s897cgq0p",
+          "schemaNodeId": "clnmsg4j40jc608xs0zgf40fp",
+          "featureSchemaId": "clnmsg4j40jc508xs3416bcor",
           "label": "casual",
           "value": "casual",
           "position": 1,
           "kind": "RadioOption"
          },
          {
-          "schemaNodeId": "clne64z5a0022070s6b0ue7rl",
-          "featureSchemaId": "clne64z5a0021070s0vxy5lz0",
+          "schemaNodeId": "clnmsg4j40jc808xs41sh9pz4",
+          "featureSchemaId": "clnmsg4j40jc708xsb7h6716s",
           "label": "disorderly",
           "value": "disorderly",
           "position": 2,
+          "kind": "RadioOption"
+         }
+        ]
+       },
+       {
+        "schemaNodeId": "clnmsg4j40jcf08xs3rec9vv8",
+        "featureSchemaId": "clnmsg4j40jca08xsd4udh8a8",
+        "archived": 0,
+        "required": true,
+        "instructions": "grooming",
+        "name": "grooming",
+        "type": "radio",
+        "uiMode": "hotkey",
+        "position": 1,
+        "kind": "RadioQuestion",
+        "options": [
+         {
+          "schemaNodeId": "clnmsg4j40jcc08xs55o34uc6",
+          "featureSchemaId": "clnmsg4j40jcb08xs9fr92tn3",
+          "label": "presentable",
+          "value": "presentable",
+          "position": 0,
+          "kind": "RadioOption"
+         },
+         {
+          "schemaNodeId": "clnmsg4j40jce08xs13v3f0s2",
+          "featureSchemaId": "clnmsg4j40jcd08xs25pg5tvm",
+          "label": "not_presentable",
+          "value": "not_presentable",
+          "position": 1,
           "kind": "RadioOption"
          }
         ]

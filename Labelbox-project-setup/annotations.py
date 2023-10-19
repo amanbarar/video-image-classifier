@@ -136,7 +136,7 @@ class videoAnnotations:
             dataset += self.get_annotated_video(os.path.join(self.video_directory , video_file) , os.path.join(self.metadata_directory , data_row_id + ".json"))
 
         df = pd.DataFrame.from_records(dataset)
-
+        df = df.ffill()
         if filename != None:
             with open(filename , 'wb') as f:
                 pickle.dump(df , f)
@@ -146,8 +146,8 @@ class videoAnnotations:
 
 if __name__ == "__main__":
     annotator = videoAnnotations()
-    PROJECT_ID = '<Project-ID>'
+    PROJECT_ID = 'clnmtfukg07f2071qdojk6kn9'
     annotator.initialize_project(PROJECT_ID)
-    user_email = "<labeller's email id>"
+    user_email = "indomag86@gmail.com"
     annotator.export_for_annotation(user_email)
     annotator.get_dataset(filename='dataset.pkl')
